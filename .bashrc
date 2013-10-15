@@ -37,7 +37,6 @@ alias rm='rm -i'
 
 #v2 alias shortcuts
 alias v2='cd /home/hermes/v2/'
-alias ftpdir='cd /home/httpd/html/misc/int/upload'
 alias nsst='tsst -qvN .'
 alias bulk-minh='bulk -F -lemail:minh@decipherinc.com'
 
