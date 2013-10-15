@@ -1,0 +1,9 @@
+vbell off
+startup_message off
+defscrollback 5000
+msgwait 1.5
+shelltitle "$ |"
+caption always '%{= kw}%?%-Lw%?%{g}(%{g}%n*%f%t%?(%u)%?%{g})%{w}%?%+Lw%?%?'
+hardstatus string "screen(%n): %h"
+termcapinfo xterm ti@:te@
+altscreen on

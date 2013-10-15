@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/jaminb/v2/data/go'
+let g:netrw_dirhist_2='/home/jaminb/alpha/v2-dev/temp/minh/m17/lib/bcvideo/v1'
+let g:netrw_dirhist_3='/home/jaminb/alpha/v2-dev/lib/steam/slidernumber/v1'
+let g:netrw_dirhist_4='/home/jaminb/alpha/v2-dev/lib/steam/bcme/v1'

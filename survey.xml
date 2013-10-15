@@ -1,0 +1,25 @@
+<survey 
+ name="Survey"
+ alt=""
+ autosave="0"
+ extraVariables="source,list,url,record,ipAddress"
+ compat="115"
+ state="testing"
+ newVirtual="1"
+ setup="time,quota,term"
+ ss:disableBackButton="1"
+ unique="">
+
+<samplesources default="0">
+  <samplesource list="0" title="default">
+    <exit cond="qualified"><b>Thanks again for completing the survey!<br/><br/>Your feedback and quick response to this survey are greatly appreciated.</b></exit>
+    <exit cond="terminated"><b>Thank you for your input!</b></exit>
+    <exit cond="overquota"><b>Thank you for your input!</b></exit>
+  </samplesource>
+</samplesources>
+
+
+
+<marker name="qualified"/>
+
+</survey>
