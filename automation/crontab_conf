@@ -1,0 +1,4 @@
+PATH=$PATH:/usr/local/bin:/home/hermes/bin:/usr/bin:/usr/local/bin:/bin:/usr/sbin:/sbin
+HERMES2_HOME=/home/hermes/v2
+
+0 8 1 * * /home/hermes/bin/cronwrap --group=brightcove --task-name=bc-monthly-report
