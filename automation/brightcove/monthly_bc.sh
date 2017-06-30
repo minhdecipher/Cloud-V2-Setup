@@ -24,10 +24,10 @@ BODY="Brightcove Usage From ${DATESTART} - ${DATEEND} Attached"
 
 #Created a second variable for easier programmer testing.
 RECIPIENTS="csm@focusvision.com"
-#RECIPIENTS="minh@focusvision.com"
+#RECIPIENTS="mbui@focusvision.com"
 
 #Execute the email command
-echo -e "${BODY}" | mailimp --fromAddress minh@focusvision.com -s "${SUBJECT}" -F "${FILENAME}.xls" ${RECIPIENTS}
+echo -e "${BODY}" | mailimp --fromAddress mbui@focusvision.com -s "${SUBJECT}" -F "${FILENAME}.xls" ${RECIPIENTS}
 
 rm ${FILENAME}.txt
 rm ${FILENAME}.xls
